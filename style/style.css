@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-    background: url(../images/big-ball.png) no-repeat right bottom -10px, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+    background: url(../images/big-ball.png) no-repeat right bottom -70px, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
 }
 
 .header {
@@ -59,7 +59,7 @@ body {
     font-size: 16px;
     color: #fff;
     text-decoration: none;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .menu ul {
@@ -84,6 +84,7 @@ body {
 }
 
 .main-info {
+    
     padding: 130px 0;
 }
 
@@ -91,6 +92,8 @@ body {
     margin: 0;
 
 }
+
+
 
 .main-info i {
     font-size: 16px;
@@ -114,18 +117,26 @@ body {
     text-transform: uppercase;
     color: #fff;
     max-width: 687px;
-    margin: 10px 0;
+    margin:0;
 }
 
-.subtitle {
+p.above-title{
+    margin-bottom: 7px;
+}
+
+p.submit-block{
+    margin-bottom: 30px;
+}
+
+p.subtitle {
     font-size: 30px;
     color: #fff;
-    padding-bottom: 30px;
+    margin-bottom: 25px;
 
 }
 
 .stars {
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .main-info span {
