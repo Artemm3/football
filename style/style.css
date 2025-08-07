@@ -68,11 +68,10 @@ body {
 
 .phone a:hover {
     text-decoration: underline #f4d633 2px;
-
 }
 
 a:hover{
-     cursor: url('/cursors/blue.cur'), auto;
+    cursor: url('/cursors/blue.cur'), auto;
 }
 
 .logo strong {
@@ -96,7 +95,10 @@ a:hover{
 }
 
 .menu li:hover>a {
-    text-decoration: underline #f4d633 2px;
+    background-color: #f4d633;
+    color: #1d3b6e;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .menu ul {
