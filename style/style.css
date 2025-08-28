@@ -59,7 +59,6 @@ body {
 
 .phone {
     display: flex;
-    align-items: center;
 
 }
 
@@ -74,7 +73,7 @@ body {
 .phone img{
     left: 0;
     position: absolute;
-    top: calc(50%-13px);
+    top: calc(50% - 13px);
 }
 
 .phone{
