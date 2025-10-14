@@ -339,6 +339,13 @@ p.subtitle {
 }
 
 
+@media screen and (min-width:610px) {
+    .header{
+        justify-content: space-between;
+    }
+    
+}
+
 @media screen and (min-width:830px) {
     .header {
         justify-content: space-between;
