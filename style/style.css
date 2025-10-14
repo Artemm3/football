@@ -11,7 +11,7 @@ body {
 
 
 .main {
-    background: url(../images/big-ball.png) no-repeat 167px, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+    background: url(../images/big-ball.png) right -200px bottom -100px no-repeat, radial-gradient(circle, rgb(52, 97, 157) 0%, rgb(52, 97, 157) 1%, rgb(29, 59, 110) 100%);
 }
 
 .logo:hover svg {
@@ -23,7 +23,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    column-gap: 40px;
+    column-gap: 10px;
     row-gap: 20px;
     padding: 20px 0;
 }
@@ -92,10 +92,6 @@ body {
 
 .phone a:hover {
     text-decoration: underline #f4d633 2px;
-}
-
-a:hover {
-    cursor: url('/cursors/blue.cur'), auto;
 }
 
 .logo strong {
@@ -309,7 +305,7 @@ p.subtitle {
 
 }
 
-@media screen and (min-width:417px) {
+@media screen and (min-width:457px) {
     .menu ul {
         padding: 5px 40px;
     }
@@ -332,22 +328,23 @@ p.subtitle {
 
 }
 
-@media screen and (min-width:550px) {
+@media screen and (min-width:540px) {
     .main {
-        background: url(../images/big-ball.png) no-repeat right bottom -100px, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+        background: url(../images/big-ball.png) no-repeat right -200px bottom -100px, radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
     }
+
+
 }
 
 
-@media screen and (min-width:610px) {
-    .header{
+@media screen and (min-width:765px) {
+    .header {
         justify-content: space-between;
     }
-    
 }
 
 @media screen and (min-width:830px) {
-    .header {
-        justify-content: space-between;
+    .main {
+        background: url(../images/big-ball.png) right bottom -100px no-repeat, radial-gradient(circle, rgb(52, 97, 157) 0%, rgb(52, 97, 157) 1%, rgb(29, 59, 110) 100%);
     }
 }
