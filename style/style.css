@@ -11,6 +11,7 @@ body {
 
 
 .main {
+
     background: url(../images/big-ball.png) no-repeat right -375px bottom -100px, radial-gradient(circle, rgb(52, 97, 157) 0%, rgb(52, 97, 157) 1%, rgb(29, 59, 110) 100%);
 }
 
@@ -56,6 +57,8 @@ body {
 }
 
 .footer {
+
+    margin: auto;
     flex-wrap: wrap;
     background-color: #f4d633;
 }
@@ -274,7 +277,7 @@ p.subtitle {
     display: block;
 }
 
-@media screen and (min-width:355px) {
+@media screen and (min-width:360px) {
 
     .menu ul {
         display: flex;
@@ -297,13 +300,6 @@ p.subtitle {
 
 }
 
-
-@media screen and (min-width:415px) {
-    .main-info h1 {
-        font-size: 44px;
-    }
-
-}
 
 @media screen and (min-width:457px) {
     .menu ul {
@@ -347,4 +343,17 @@ p.subtitle {
     .main {
         background: url(../images/big-ball.png) right bottom -100px no-repeat, radial-gradient(circle, rgb(52, 97, 157) 0%, rgb(52, 97, 157) 1%, rgb(29, 59, 110) 100%);
     }
+}
+
+@media screen and (min-width:1600px) {
+    .footer {
+        margin: auto;
+        max-width: 1440px;
+    }
+
+    .main {
+        margin: auto;
+        max-width: 1440px;
+    }
+
 }
