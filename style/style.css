@@ -301,23 +301,27 @@ p.subtitle {
 }
 
 
-@media screen and (min-width:457px) {
-    .menu ul {
-        padding: 5px 40px;
-    }
-
-}
-
 
 @media screen and (min-width:430px) {
     .footer-wrap {
         display: flex;
         justify-content: space-between;
     }
-
+    
+.main-info h1{
+    font-size: 44px ;
+}
+    
 }
 
-@media screen and (min-width:460px) {
+@media screen and (min-width:457px) {
+    .menu ul {
+        padding: 5px 40px;
+    }
+        
+}
+
+@media screen and (min-width:470px) {
     .main-info h1 {
         font-size: 48px;
     }
