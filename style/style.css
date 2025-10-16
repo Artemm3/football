@@ -345,7 +345,7 @@ p.subtitle {
     }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1700px) {
     .footer {
         margin: auto;
         max-width: 1440px;
